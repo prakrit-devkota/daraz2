@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pangolin&family=Protest+Riot&family=Protest+Strike&family=Sedgwick+Ave+Display&display=swap');
+body{
+    font-family: "Open Sans", sans-serif;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+.nav{
+    height: 110px;
+    width: 100%;
+    background-color: #f85606;
+    box-sizing: border-box;
+    
+}
+.nav .first{
+    height: 10%;
+    display: flex;
+    justify-content:center;
+    gap: 2%;
+    margin-top: 4px;
+    font-size: smaller;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+.nav a:hover{
+    transform: scale(1.2,1.2);
+    color: lightgreen;
+}
+.nav .second{
+    height: 90%;
+    display: flex;
+    box-sizing: border-box;
+    padding-top: 3%;
+    display: flex;
+    align-items: center;
+    padding: 2%;
+    gap: 2%;
+    justify-content: center;
+}
+.nav img{
+    height: 50%;
+}
+.second input{
+    height: 70%;
+    width: 50%;
+    border-radius: 4px;
+}
+.hr{
+    height: 60%;
+    background-color: white;
+    width: 0.05%;
+}
+.mainsec{
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+}
+.background{
+    width: 60%;
+    height: 100%;
+}
+.background img{
+    height: 100%;
+    width: 100%;
+}
+#next,#ahead{
+   height: 5%;
+   width: 3%; 
+}
+.options{
+    height: 90%;
+    width: 30%;
+    background-color: grey;
+    border-radius: 5%;
+}
+.options{
+    box-sizing: border-box;
+    
+    color: white;
+    font-size: smaller;
+    display: flex;
+    align-items: center;
+    font-size: large;
+}
+.flashsales{
+    width: 100%;
+    height: 800px;
+    background-color: grey;
+    display: grid;
+    grid-template-columns:30% 30% 30%;
+    column-gap: 2%;
+    align-items: center;
+    justify-content: center;
+    grid-template-rows: 50% 50%;
+    row-gap: 2%;
+    background-color: #A5DD9B;
+
+}
+.items{
+   
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .items img{
+    margin-top: 2%;
+    height: 60%;
+    width: 90%;
+    border-radius: 5px;
+  }
+  button{
+     margin: 0;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    background-color:aqua;
+    height: 40px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 4px;
+
+  }
+  button:hover{
+    opacity: 0.6;
+  }
+  .footer{
+    height:300px;
+    background-color: orange;
+    box-sizing: border-box;
+    padding:5%;
+  }
+  .footer .socialmedia{
+    height: 20%;
+    display: flex;
+    justify-content: right;
+    gap: 4%;
+  }
+  .footer img{
+    height: 95%;
+    width: 3%;
+  }
+  .footer img:hover{
+    transform: scale(1.25,1.25);
+  }
+
+  
+  .footer .footersec{
+    margin-top: 4%;
+    text-align: justify;
+  }
+
+ @media screen and (min-width:1250px){
+    .nav{
+        height: 120px;
+    }
+    .mainsec{
+        height: 400px;
+    }
+    .flashsales{
+        height: 900px;
+    }
+    .options{
+        font-size:xx-large;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+ }
+@media screen and (max-width:550px){
+   .flashsales{
+    height: 3200px;
+    display: flex;
+    flex-direction: column;
+   }
+   .options{
+    width: 0%;
+   }
+   .background{
+    width: 90%;
+   }
+ .second input{
+    height: 40%;
+ }
+ .nav img{
+    height: 40%;
+    width: 14%;
+ }
+
+ .nav .second{
+    height: 100%;
+ }
+ .nav .first{
+    height: 0;
+    width: 0;
+    overflow: hidden;
+ }
+ .footer{
+    height: 420px;
+  }
+  .footer .socialmedia{
+    height: 10%;
+  }
+  .footer .footersec{
+    margin-top: 10%;
+  }
+  .footer img{
+    height: 95%;
+    width: 8%;
+  }
+  
+
+}
+
